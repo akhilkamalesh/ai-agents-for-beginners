@@ -1,0 +1,20 @@
+What are AI Agents:
+
+Elements:
+- LLM: powers ther reasoning behind these agents
+- Memory: Short Term (within conversation) or Long Term (allows agent to perform better over time)
+- Tools: Different services accessed by apis to perform an action; different functions an agent can run
+- Agent uses LLM to identify what task to complete, what tools are needed to complete the task, and memory to gather info and data to complete this task
+
+Code Elements:
+Semantic Agent: 
+Semantic Kernel (SK) is an open-source orchestration SDK created by Microsoft.
+It helps developers build AI-powered applications (agents, copilots, chatbots, etc.) that combine:
+
+LLMs (Large Language Models) like GPT-4 or Claude
+
+Traditional code functions
+
+Memory, planning, and tool-calling capabilities
+
+Essentially, it gives your AI “structure” — it’s like a framework for connecting your Python code to intelligent agents.
