@@ -1,0 +1,40 @@
+Agentic RAG:
+- RAG:
+    - enables llms to take query from user and retrive relevant info from db
+    - info is added to context given to llm to provide more relevant responses
+- agentic rag:
+    - agent performs analysis of the query to perform a plan of smaller tasks
+    - to data sources and tools to answer that query
+    - after that information is retrived from those systems, the agent can verify if that information is enough
+    - can repeat this process of tool calling until it does
+    - can maintain long term memory
+    - aka adaptive rag
+
+
+Vector Database is used to create embeddings from documents for semantic similarity
+
+
+
+Index:
+An index in Azure AI Search (or any search engine like Elasticsearch, Solr, or Lucene) 
+is basically a specialized database optimized for text search — it stores your data in a way that enables fast, relevant, full-text search.
+Treat each index as a database table
+
+SearchIndexClient:
+- Administer and manage the index structure
+You use this client to:
+- Create new indexes
+- Delete indexes
+- Inspect or update schemas (fields, types, etc.)
+- List all indexes in your search service
+- It’s basically your database administrator (DBA) for the search service.
+
+
+SearchClient:
+- Inderact with the actual indexed data
+You use this client to:
+- Upload or update documents
+- Search for documents
+- Retrieve or delete specific documents
+- Run filters, facets, or semantic ranking
+- It’s your data operations layer — similar to using SQL queries or inserting rows.

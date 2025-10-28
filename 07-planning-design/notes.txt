@@ -1,0 +1,9 @@
+AI Agent Planning Design Pattern:
+- AI agent list the subtask the more complex task
+- Those subtasks are completed by separate agent or other process
+- Structure the output of the agent using the LLM or other tools
+- System can process and parse that information
+- Add validation to that output so that we know we have all the information for the steps
+
+
+PyDantic  - super important for breaking down into subtasks

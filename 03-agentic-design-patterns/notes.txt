@@ -1,0 +1,15 @@
+How to design good ai agents:
+
+What makes a good agent:
+    - Space: environment agent is working in
+        connecting events, people, knowledge
+        easily discoverable
+        found in UI/UX of application
+    - Time: This is how the agent operates overtime with a human
+        Learns overtime
+        Connects to past events and enabling reflection design pattern
+        Show users past promopts and interaction with UI
+    - Core: Embracing uncertainty
+        allowing LLMs to create/act on plans
+        enabling trust and transparency
+        Visibly controls and feedback tools

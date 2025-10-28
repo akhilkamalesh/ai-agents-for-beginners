@@ -1,0 +1,54 @@
+Metacognition:
+- Refers to the higher order cognitive processes that invole thinking about one's own thinking
+- AI Agents: able toe evaluate and adjust their actions based on self-awareness and past experiences
+- Can address several challenges:
+    - Transparency
+    - Reasoning
+    - Adaptation
+    - Perception
+- Crucial for several reason:
+    - self reflection: agents assess performance and areas of improvement
+    - adaptability: agents can change strategies based on past experiences and environment
+    - error correction: agents can detect errors and correct them for better outcomes
+    - resource management: agents can optimize the use of resources through evaluation
+- AI Agent Components:
+    - Persona: Personality characteristcs of the agent, which define how it interacts with users
+    - Tools: Capabilities and functions that the agent can perform
+    - Skills: The knowledge and expertise that the agent possesses
+
+Corrective RAG Approach:
+- focuses on using RAG techniques to correct errors and improve the accuracy of AI Agents:
+- includes:
+    - prompting techniques
+    - Tools
+    - evaluation
+
+
+Pre-emptive Context Load:
+- Involves loading relevant context or background information into the model before processing a query
+
+Bootstrapping a plan:
+- Bootstrapping a plan with a goal involves starting with a clear objective or target outcome in mind
+
+RAG as a prompting technique vs a tool:
+- Prompting:
+    - Involves formulating specific queries or prompts to guide the retrieval of relevant information from a large corpus or database
+    - How it works:
+        - Formulate prompts
+        - Retrieve information
+        - Generate Response
+
+- Tool:
+    - an integrated system that automates the retrieval and generation processes
+    - how it works:
+        - Integration
+        - Automation
+        - Efficiency
+
+
+Search with intent:
+    - Key Concepts:
+        - Understanding user intent
+        - context awareness
+        - NLP
+        - personalization

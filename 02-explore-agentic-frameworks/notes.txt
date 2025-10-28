@@ -1,0 +1,33 @@
+Which AI agent framework to use:
+
+- What are agentic frameworks:
+    - tools that enable anyone that are building ai agents to have a bit mroe control over 
+        - TASK MANAGEMENT
+    - agentic frameworks help us decide what agents will complete that task
+    - contextual understanding: agents needs to have information about context and environment state
+    - Agent collaboration: how these agents complete these task together is up to use to define, using frameworks to do it effectively
+    - frameworks come with tools and connection so we can evaluate
+
+
+- Azure AI Agent Service:
+    - single agent
+    - integrates with existing azure services
+
+MULTIAGENT Support:
+- semantic kernel:
+    - utilize agents that are built with Azure AI agent service or other
+    - offers support with C#, Java, and Python
+
+- Autogen:
+    - strong focus on taking latest research and allows researches to test with code
+
+
+02-semantic-kernel notes:
+- Documents inline
+
+
+Azure Foundry:
+- Create a project within Foundry
+- This will give you your foundry end point
+- Create a model within that endpoint
+- every model will be accessible within the foundry endpoint

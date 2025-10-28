@@ -1,0 +1,14 @@
+Building Effective AI Agents:
+- System Message Framework:
+    - Have the most impact and control when working with LLMs
+    - We want to set clear instructions so AI agents can act the way we want them to
+    - Scalable and repeatable way
+    - ie) "You are an agent responsible for booking flights" and pass that to an LLM to get prompt
+    - Building prompts is an iterative process and the system message does so iteratively
+
+
+    - Defines the role, tone, and constraints for an agent
+
+- Human in the loop:
+    - human approval or interventions
+    - adding human user in multiagent cooperation

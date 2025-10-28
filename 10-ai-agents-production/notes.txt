@@ -1,0 +1,32 @@
+Deploy AI Agents to Prod:
+- Traces and Spans:
+    - Trace represents a complete agent task from start to finish
+    - Spands are individual steps within a trace (like calling a language model or retrieving data)
+- Observability:
+    - Debugging and Root-Cause Analysis
+    - Latency and Cost Management
+    - Trust, Safety, and Compliance
+    - Continuous improvement loops
+- Key Metrics to track:
+    - Latency: How quickly does the agent respond?
+    - Costs: What's the expense per agent run?
+    - Request Errors: How many requests did the agent fail?
+    - User Feedback: Implementing direct user evaluations provide valuable insights
+    - Implicit User Feedback
+    - Accuracy: How frequently does the agent product correct or desirable outputs
+    - Automated Evaluation Metrics: LLM to score the output of the agent
+- instrument your agent:
+    - OpenTelemetry (OTel): OpenTelemetry has emerged as an industry standard for LLM observability. 
+        It provides a set of APIs, SDKs, and tools for generating, collecting, and exporting telemetry data.
+    - Langfuse if you want to manually create your span
+- Evaluation:
+    - Offline:
+        - Evaluate agent in a controlled setting, using test datasets, not live user queries
+        - Benefits: Repeatable and you can get clear accuracy metrics since you have ground truth
+    - Online:
+        - Evaluate the agent in a live, real world environment during actual usage in production
+        - Capture things you might not anticipate in a lab setting - observe model drift over time
+    - Loop:
+        - Evaluate offline -> deploy -> monitor online -> collect new failure cases -> add to offline dataset -> refine agent -> repeat
+
+        

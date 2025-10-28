@@ -1,0 +1,32 @@
+Agent Tool Use Design Pattern:
+-  Tool design pattern allows LLMs to interact with these tools
+    - Calculator
+    - Flight API
+    - Functions
+- Ai Agent that can query database for customer information or connected to CRM
+- Combine tools to make process more efficient
+
+- Security for these tools and handling errors
+
+
+Code Review for Semantic Kernel Tool:
+
+Functions are decorated so LLM knows which ones to call:
+{
+  "name": "get_destinations",
+  "description": "Provides a list of vacation destinations.",
+  "parameters": {}
+}
+{
+  "name": "get_availability",
+  "description": "Provides the availability of a destination.",
+  "parameters": {
+    "destination": {
+      "type": "string",
+      "description": "The destination to check availability for."
+    }
+  }
+}
+
+
+The llm used semantic matching based on function name, description, user query, parameters...
